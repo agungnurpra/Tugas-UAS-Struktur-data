@@ -1,0 +1,21 @@
+import java.util.Stack;
+
+public class Main {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+
+        // Menambahkan elemen ke stack
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+
+        // Menampilkan elemen paling atas dari stack
+        System.out.println("Elemen paling atas: " + stack.peek());
+
+        // Menghapus elemen paling atas dari stack
+        stack.pop();
+
+        // Menampilkan elemen paling atas setelah dihapus
+        System.out.println("Elemen paling atas setelah dihapus: " + stack.peek());
+    }
+}
